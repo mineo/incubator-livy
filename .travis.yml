@@ -61,7 +61,6 @@ before_install:
   - sudo apt-get -y install python3-pip python-dev
   - sudo apt-get -y install libkrb5-dev
   - sudo apt-get -y remove python-setuptools
-  - sudo pip2 install --upgrade pip "setuptools < 36"
   - sudo pip3 install --upgrade pip "setuptools < 36"
   - sudo pip2 install codecov cloudpickle
   - sudo pip3 install cloudpickle
